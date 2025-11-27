@@ -1,0 +1,140 @@
+# Commands Log
+# Purpose: Track successful commands, scripts, and operations
+# Usage: Add commands here as you discover what works
+
+Project: owasp-juice-shop-demo
+Last Updated: 2025-11-27 15:45
+
+=== Quick Reference Commands ===
+# Most commonly used commands for this project
+
+# Get current working directory
+pwd
+
+# List files with sizes in docs directory
+ls -lh /Users/rupeshpanwar/Documents/AI-Projects/owasp-juice-shop-demo/docs/
+
+# Detect git repository root
+git rev-parse --show-toplevel
+
+# Check git status for changed files
+git status --short
+
+# Get current git branch
+git branch --show-current
+
+---
+
+=== Environment Setup ===
+# Commands to set up development environment
+
+# Create docs directory with proper permissions
+mkdir -p /Users/rupeshpanwar/Documents/AI-Projects/owasp-juice-shop-demo/docs && chmod 755 /Users/rupeshpanwar/Documents/AI-Projects/owasp-juice-shop-demo/docs
+
+# Get current timestamp for logging
+date '+%Y-%m-%d %H:%M'
+
+---
+
+=== Build & Deploy ===
+# Build, compile, package, deploy commands
+
+# Example:
+# npm run build
+# docker build -t app:latest .
+# kubectl apply -f deployment.yaml
+
+---
+
+=== Database Operations ===
+# Database connection, migration, backup commands
+
+# Example:
+# psql -h hostname -U user -d database
+# npm run migrate
+# pg_dump database > backup.sql
+
+---
+
+=== Testing & Validation ===
+# Commands to run tests and validate functionality
+
+# Example:
+# npm test
+# pytest tests/
+# curl -X GET http://localhost:8080/health
+
+---
+
+=== Debugging & Logs ===
+# Commands to view logs, debug issues
+
+# Example:
+# tail -f /var/log/app.log
+# kubectl logs pod-name
+# docker logs container-id
+
+---
+
+=== Git Operations ===
+# Git workflow commands specific to this project
+
+# Detect git repository root path
+git rev-parse --show-toplevel
+
+# Show short status of working tree (untracked/modified files)
+git status --short
+
+# Show current branch name
+git branch --show-current
+
+# Show recent commit history (one line per commit)
+git log --oneline -5
+
+---
+
+=== Cloud/Infrastructure (AWS/GCP/Azure) ===
+# Cloud provider specific commands
+
+# Example:
+# aws s3 ls s3://bucket-name
+# aws ecs describe-services --cluster name
+# gcloud compute instances list
+
+---
+
+=== Docker/Container Commands ===
+# Container management
+
+# Example:
+# docker-compose up -d
+# docker exec -it container sh
+# docker ps -a
+
+---
+
+=== File Locations ===
+Scripts: [Path to scripts directory]
+Config: [Path to config files]
+Logs: [Where logs are stored]
+Artifacts: [Where build outputs go]
+
+---
+
+=== Connection Strings (Redacted) ===
+# Template connection strings (no real credentials!)
+
+Database: [connection string template]
+API: [endpoint template]
+Cache: [redis/memcached connection]
+
+---
+
+=== Troubleshooting Notes ===
+Common Issue: [Description]
+Solution: [Command or fix]
+
+Common Issue: [Description]
+Solution: [Command or fix]
+
+---

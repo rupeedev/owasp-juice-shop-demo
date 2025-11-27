@@ -1,0 +1,48 @@
+Last Updated: 2025-11-27 15:45
+Current Project: owasp-juice-shop-demo
+Active Phase: Setup & Infrastructure
+
+=== QUICK CONTEXT ===
+Working on: OWASP Juice Shop demo project setup with DevSecOps training and context preservation system
+Key Services: OWASP Juice Shop (vulnerable web application), CI/CD pipeline components
+Access Method: [To be configured - AWS profile, Docker, etc.]
+Environment: Development (local setup in progress)
+
+=== COMPLETED RECENTLY ===
+- Initialized context preservation file system with 6 template files
+- Created docs directory structure with proper permissions
+- Set up standardized templates for session handoffs, commands, decisions, and issues
+- Generated comprehensive README for context file usage
+- Established foundation for maintaining project state across Claude Code sessions
+
+=== IN PROGRESS ===
+- Project initialization and setup phase
+- Status: Context files created, ready for customization with project-specific details
+
+=== NEXT SESSION ===
+Start with: Review context files and customize with OWASP Juice Shop project specifics
+First task: Customize CURRENT_STATE.txt with actual project details (what features to build, security tests to perform)
+Files to read:
+  - docs/SESSION_HANDOFF.txt (latest session summary)
+  - docs/DEVSECOPS_TRAINING_WITH_JUICE_SHOP.txt (existing DevSecOps documentation)
+  - docs/STAGE_EXPLAINED.txt (pipeline stage documentation)
+
+=== IMPORTANT NOTES ===
+- Context preservation files are now in place for cross-session state management
+- Project already contains DevSecOps training documentation
+- All template files use placeholder data - need customization for actual project use
+- Never store actual credentials in context files - use references only
+
+=== FILE LOCATIONS ===
+Config files: [To be determined]
+Scripts: [To be determined]
+Data/Artifacts: [To be determined]
+Documentation: /docs (SESSION_HANDOFF.txt, CURRENT_STATE.txt, COMMANDS_LOG.txt, DECISIONS.txt, ISSUES.txt, README.md, DEVSECOPS_TRAINING_WITH_JUICE_SHOP.txt, STAGE_EXPLAINED.txt)
+
+=== CREDENTIALS & ACCESS ===
+Note: Never store actual credentials here - only references
+- AWS Profile: [Profile name or "See ~/.aws/credentials"]
+- Database: [Connection info location or Secrets Manager path]
+- APIs: [Where keys are stored]
+
+---
